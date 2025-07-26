@@ -1,0 +1,8 @@
+POST http://localhost:3000/payment
+Content-Type: application/json
+
+{
+	"loan_id": 2,
+	"payment_type": "LUMP_SUM",
+	"amount_paid": 40000
+}
